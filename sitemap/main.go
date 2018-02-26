@@ -25,7 +25,7 @@ type urlset struct {
 }
 
 func main()  {
-	urlFlag := flag.String("url", "http://rpgf.md", "the url that you want to build a sitemap for")
+	urlFlag := flag.String("url", "http://golang.org", "the url that you want to build a sitemap for")
 	maxDepth := flag.Int("depth", 10, "the maximum number of links deep to traverse")
 	flag.Parse()
 
